@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,600;1,100&display=swap');
+@import url('fontawesome-free-6.0.0-beta2-web/css/all.min.css');
+:root{
+      --color1: #2D46B9;
+      --color2: #D5EEBB;
+      --color3: #64C9CF;
+      --color4: #423F3E;
+      --color5: #000000;
+      --color6: #FFB319;
+      --color7: #FF0000;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:var(--color2);
+    font-family: Thin 100 italic;
+    margin:0; 
+    font-size: 20px;
+    color: var(--color5);
+}
+a{
+    color: var(--color6);
+    text-decoration: none;
+}
+a:hover{
+    color: var(--color7);
+    text-decoration: underline;
+}
+#top-nav{
+    background-color:var(--color6);
+   position: sticky;
+    top: 0;
+    
+}
+img{
+    display: block;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+h1{
+    font-weight: 900;
+    font-size: 36px;
+    letter-spacing: -2px;
+    margin: 0;
+}
+h2{
+    font-weight: 200;
+    font-size: 32px;
+    letter-spacing: -2px;
+    
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+h3{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+#main-header1{
+    background-color: var(--color1);
+}
+#main-header{ 
+    background-color:var(--color2);
+    
+}
+#main-header p{
+     margin-bottom: 0;
+}
+#main-header .row{
+    justify-content: space-between;
+}
+#logo{
+    width: 200px;
+  
+}
+#main-banner{
+    position: relative;
+}
+#main-banner-leyenda{
+    position: absolute;
+    background-color: var(--color-blanco);
+    bottom: -80px;
+    width: 40%;
+    padding: 30px;
+    box-sizing: border-box;
+    left:30%;
+    box-shadow: 0 10px 15px rgb(0 0 0 / 70%);
+}
+#planes{
+    background-color: var(--color4);
+    color: var(--color2);
+    text-align: center;
+}
+#protocolo{
+    background-color: var(--color1);
+    color: var(--color6);
+ }
+ 
+ #asesoria{
+     background-color: var(--color5);
+     color: var(--color6);
+ }
+ #resultado{
+     background-color: var(--color5);
+     color: var(--color1);
+ }
+
+#clases{
+    background-color: var(--color2);
+}
+#clases .col{
+    background-color: #eeeeee;
+    margin: 10px;
+    padding-top: 15px;
+    border: solid 1px #dddddd;
+    border-radius: 0 0 15px 15px;
+    transition: .5s all ease-in-out;
+}
+#clases .col:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    margin-top: -3px;
+}
+#clases figure{
+    overflow: hidden;
+}
+#clases img{
+    transition: .4s ease-in-out all;
+    border-radius:10%;
+    border: solid 5px rgba(0,0,0,0.2);
+}
+#clases img:hover{
+    transform: scale(1.1,1.1);
+}
+#colaboradores{
+    background-color: var(--color3);
+    text-align: center;
+    color: var(--color2);
+}
+#colaboradores img{
+    border-radius: 50%;
+    border: solid 10px rgba(0,0,0,0.2);
+    filter: grayscale(1);
+    transition: .5s all ease-in-out;
+}
+#colaboradores img:hover{
+    filter: grayscale(0);
+    transform: rotate(-15deg);
+}
+#colaboradores .col{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+#dinamicas{
+    background-color: var(--color1);
+    color: var(--color5);
+    text-align: center;
+    
+}
+#dinamicas i{
+    border: solid 2px;
+    padding: 24px 20px;
+    border-radius: 50%;
+    
+}
+#sedes{
+    text-align: center;
+}
+#unete{
+    background-color: var(--color1);
+    color: var(--color5);
+}
+#metascumplidas{
+    background-image: url('../images/gym.jpg');
+    background-size: cover;
+    background-position: 0% 30%;
+    background-attachment: fixed;
+    color: var(--color-blanco);
+    text-align:right;
+}
+#metascumplidas p{
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 200;
+    letter-spacing: -2px;
+}
+#videos{
+    background-color: var(--color6);
+}
+#ejercicios{
+    background-color: var(--color1);
+}
+#ejercicios .col{
+    border: solid 10px rgba(255,255,255,0.3);/* borde con color rgba transparente */
+    margin: 5px;
+    padding-top: 15px;
+    border-radius: 10px;/* Radio de borde */
+}
+#main-footer{
+    background-color:var(--color3) ;
+    color: var(--color1);
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+#ir-arriba{
+    font-size: 24px;
+    background-color: var(--color5);
+    color: var(--color2);
+    padding: 15px 22px;
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    border-radius: 50%;
+}
+.padded{
+     padding-top: 45px;
+     padding-bottom: 15px;
+}
+.padded1{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.padded2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.container{
+    max-width: 1000px;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row{
+    display: flex;
+
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col{
+    padding-left: 15px;
+    padding-right: 15px;
+
+    flex-basis: 0;
+    flex-grow: 1;
+
+    box-sizing: border-box;
+}
+.col-50{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.col-66{
+    flex-basis: 66.66%;
+    max-width:66.66%;
+}
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+.img-fluid1{
+    width: 100%;
+    height: auto;
+}
+.alineacion-vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+}
+.menu li a{
+    display: block;
+}
+
+.menu-main li a{
+    padding: 30px 15px; 
+    color: var(--color5);
+    border-bottom: solid 4px transparent;
+    text-decoration: none;
+
+}
+.menu-main li a:hover{
+    color:  var(--color1);
+    text-decoration: none;
+    border-bottom: solid 4px var(--color5);
+}
+.imagen-leyenda{
+    position: relative;/* para que los objetos contenidos con position absolute
+    lo tomen como referencia */
+    top: -60px;
+    
+}
+
+.imagen-leyenda-contenido{
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;/* para que el objeto quede flotando sobre la página */
+    top: 0;
+    height: calc(100% - 80px);/* 100% igual al de su contenedor (en este caso el alto) */
+    width: calc(100% - 110px);/* calc hace una operación matemática */
+    padding: 40px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: .5s all ease-in-out;/* duración en segundos, 
+    todas propiedades que han cambiado se animen, efecto */
+    margin: 40px;
+}
+.imagen-leyenda-contenido:hover{
+    opacity: 1;
+}
